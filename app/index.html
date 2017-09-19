@@ -1,11 +1,11 @@
 <div class="container">
     {{#each articles}}
         <article>
-            {{#if @url(this)}}
+            <!-- {{#if @url(this)}}
                 <a href="{{link}}" target="_blank">
                     <img src="{{@https(@url(this))}}">
                 </a>
-            {{/if}}
+            {{/if}} -->
 
             <h2>
                 <a href="{{link}}" target="_blank">
@@ -21,6 +21,10 @@
                     &raquo;
                 </a>
             </small>
+        </article>
+    {{else}}
+        <article>
+            <h2>Loading Your News...</h2>
         </article>
     {{/each}}
 </div>
