@@ -1,4 +1,5 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin'),
+    isProduction = process.argv.indexOf('-p') !== -1,
     extractSass = new ExtractTextPlugin({
         filename: './assets/application.min.css'
     });

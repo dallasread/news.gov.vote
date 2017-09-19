@@ -42,6 +42,7 @@ var CustomElement = require('generate-js-custom-element'),
     async.eachParallel([
         // 'http://feeds.reuters.com/reuters/topNews',
         'http://feeds.reuters.com/Reuters/worldNews',
+        'http://www.bloomberg.com/politics/feeds/site.xml',
         // 'http://feeds.washingtonpost.com/rss/rss_blogpost',
         // 'http://feeds.bbci.co.uk/news/rss.xml',
         // 'http://www.wsj.com/xml/rss/3_7041.xml', // Opinion
