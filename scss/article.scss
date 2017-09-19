@@ -1,0 +1,44 @@
+$tan: #484138;
+
+.container {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+article {
+    @include clearfix();
+
+    display: block;
+    padding: 30px 15px;
+    border-bottom: 1px dashed #ccc;
+    clear: both;
+
+    h2 {
+        font-weight: bold;
+        font-size: 120%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    img {
+        float: right;
+        max-width: 38%;
+        margin-left: 20px;
+    }
+
+    small {
+        font-family: Helvetica Neue, Helvetica, Arial, Sans Serif;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #aaa;
+        font-size: 80%;
+        float: right;
+        margin-top: 15px;
+        margin-bottom: -15px;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "gov-vote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dallas Read",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "img-loader": "^1.3.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.11.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
+  },
+  "dependencies": {
+    "ajax": "0.0.4",
+    "api-deploy": "^0.3.13",
+    "browser-app-router": "^1.1.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "fs": "0.0.1-security",
+    "generate-js-custom-element": "Mike96Angelo/Custom-Element#rethought-again",
+    "jquery": "^3.2.1",
+    "marked": "^0.3.6",
+    "no-async": "^1.1.6",
+    "webpack": "^3.5.2",
+    "write-json-webpack-plugin": "^1.0.0",
+    "xml-parser": "^1.2.1",
+    "xml2js": "^0.4.19",
+    "yaml-front-matter": "^3.4.0"
+  }
+}

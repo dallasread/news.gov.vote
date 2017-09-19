@@ -1,0 +1,26 @@
+<div class="container">
+    {{#each articles}}
+        <article>
+            {{#if @url(this)}}
+                <a href="{{link}}" target="_blank">
+                    <img src="{{@url(this)}}">
+                </a>
+            {{/if}}
+
+            <h2>
+                <a href="{{link}}" target="_blank">
+                    {{title}}
+                </a>
+            </h2>
+
+            <p>{{@summary(description)}}</p>
+
+            <small>
+                <a href="{{link}}">
+                    {{@domain(link)}}
+                    &raquo;
+                </a>
+            </small>
+        </article>
+    {{/each}}
+</div>
