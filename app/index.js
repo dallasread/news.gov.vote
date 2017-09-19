@@ -46,6 +46,7 @@ var CustomElement = require('generate-js-custom-element'),
         // 'http://feeds.reuters.com/reuters/topNews',
         'http://feeds.reuters.com/Reuters/worldNews',
         'http://www.bloomberg.com/politics/feeds/site.xml',
+        'https://www.theglobeandmail.com/?service=rss',
         // 'http://feeds.washingtonpost.com/rss/rss_blogpost',
         // 'http://feeds.bbci.co.uk/news/rss.xml',
         // 'http://www.wsj.com/xml/rss/3_7041.xml', // Opinion
