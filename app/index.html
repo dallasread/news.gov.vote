@@ -3,7 +3,7 @@
         <article>
             {{#if @url(this)}}
                 <a href="{{link}}" target="_blank">
-                    <img src="{{@url(this)}}">
+                    <img src="{{@https(@url(this))}}">
                 </a>
             {{/if}}
 

@@ -29,6 +29,9 @@ var CustomElement = require('generate-js-custom-element'),
                 return;
             }
         },
+        https: function https(url) {
+            return (url || '').replace('http:', 'https:');
+        },
         domain: function domain(url) {
             return (DOMAIN.exec(url || '')[0] || '').replace(/(www|feed|feeds)\./, '');
         },
