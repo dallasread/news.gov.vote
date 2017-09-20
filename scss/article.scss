@@ -1,9 +1,57 @@
 $tan: #484138;
+$yellow: #FFFA9C;
 
 .container {
     width: 100%;
     max-width: 540px;
     margin: 0 auto;
+}
+
+h2 {
+    font-size: 120%;
+    padding: 15px;
+    border-bottom: 1px dashed #ccc;
+    transition: background-color 3s ease;
+    font-weight: bold;
+
+    &.selected {
+        background: $yellow;
+    }
+
+    small {
+        font-family: Helvetica Neue, Helvetica, Arial, Sans Serif;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #aaa;
+        font-size: 80%;
+        display: block;
+        text-align: right;
+    }
+
+    &.fixed {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+}
+
+articles {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    h2 {
+        padding: 15px;
+        background-color: $yellow;
+    }
 }
 
 article {
@@ -14,7 +62,7 @@ article {
     border-bottom: 1px dashed #ccc;
     clear: both;
 
-    h2 {
+    h3 {
         font-weight: bold;
         font-size: 120%;
         margin-bottom: 10px;

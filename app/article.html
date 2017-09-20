@@ -1,0 +1,22 @@
+<article>
+    <!-- {{#if @url(this)}}
+        <a href="{{link}}" target="_blank">
+            <img src="{{@https(@url(this))}}">
+        </a>
+    {{/if}} -->
+
+    <h3>
+        <a href="{{link}}" target="_blank">
+            {{title}}
+        </a>
+    </h3>
+
+    <p>{{@summary(description)}}</p>
+
+    <small>
+        <a href="{{link}}" target="_blank">
+            {{@domain(link)}}
+            &raquo;
+        </a>
+    </small>
+</article>

@@ -1,0 +1,9 @@
+<div class="container">
+    {{#each articles}}
+        {{>article article=this}}
+    {{else}}
+        <article>
+            <h2>Loading Your News...</h2>
+        </article>
+    {{/each}}
+</div>
